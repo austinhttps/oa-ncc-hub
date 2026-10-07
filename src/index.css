@@ -1,0 +1,103 @@
+:root {
+  --primary-red: #ba1a1a;
+  --primary-red-dark: #8c0009;
+  --primary-red-light: #ffdad6;
+  --primary-red-surface: #fff8f6;
+  --accent-gold: #c88a1e;
+  --accent-gold-light: #fef3c7;
+  --accent-gold-dark: #92400e;
+  
+  --oa-navy: #0f172a;
+  --oa-slate: #1e293b;
+  --oa-gray-900: #0f172a;
+  --oa-gray-800: #1e293b;
+  --oa-gray-700: #334155;
+  --oa-gray-600: #475569;
+  --oa-gray-500: #64748b;
+  --oa-gray-400: #94a3b8;
+  --oa-gray-300: #cbd5e1;
+  --oa-gray-200: #e2e8f0;
+  --oa-gray-100: #f1f5f9;
+  --oa-gray-50: #f8fafc;
+  
+  --surface-card: #ffffff;
+  --surface-subtle: #f8fafc;
+  --border-light: #e2e8f0;
+  --border-medium: #cbd5e1;
+
+  --success-green: #15803d;
+  --success-bg: #dcfce7;
+  --warning-amber: #b45309;
+  --warning-bg: #fef3c7;
+  --urgent-red: #b91c1c;
+  --urgent-bg: #fee2e2;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Oswald', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+  color: var(--oa-gray-800);
+  background-color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Accessibility */
+:focus-visible {
+  outline: 2px solid var(--primary-red);
+  outline-offset: 2px;
+}
+
+.skip-to-content {
+  position: absolute;
+  top: -40px;
+  left: 20px;
+  background: var(--primary-red);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 1000;
+  font-weight: 600;
+  border-radius: 0 0 6px 6px;
+  transition: top 0.2s ease;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
