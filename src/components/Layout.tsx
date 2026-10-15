@@ -24,38 +24,40 @@ export function Header() {
             <small>National Communications Committee</small>
           </span>
         </Link>
-        <nav aria-label="Main navigation">
-          <NavLink to="/" end>Home</NavLink>
-          <NavLink to="/about/">About the committee</NavLink>
-          <NavLink to="/services/">What we do</NavLink>
-          <NavLink to="/timelines/">Timelines</NavLink>
-          <NavLink to="/standards/">Policies &amp; standards</NavLink>
-          <NavLink to="/request/">Contact &amp; requests</NavLink>
-        </nav>
-        <a
-          className="button header-cta"
-          href="https://jira.oa-scouting.org/servicedesk/customer/portal/37/create/330"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Submit a request
-        </a>
+        <div className="header-nav-group">
+          <nav aria-label="Main navigation">
+            <NavLink to="/" end>Home</NavLink>
+            <NavLink to="/about/">About</NavLink>
+            <NavLink to="/services/">Services</NavLink>
+            <NavLink to="/timelines/">Timelines</NavLink>
+            <NavLink to="/standards/">Standards</NavLink>
+            <NavLink to="/request/">Contact</NavLink>
+          </nav>
+          <a
+            className="button header-cta"
+            href="https://jira.oa-scouting.org/servicedesk/customer/portal/37/create/330"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Submit Request
+          </a>
+        </div>
         <details className="mobile-menu">
           <summary>Menu</summary>
           <nav aria-label="Mobile navigation">
             <Link to="/">Home</Link>
-            <Link to="/about/">About the committee</Link>
-            <Link to="/services/">What we do</Link>
+            <Link to="/about/">About</Link>
+            <Link to="/services/">Services</Link>
             <Link to="/timelines/">Timelines</Link>
-            <Link to="/standards/">Policies &amp; standards</Link>
-            <Link to="/request/">Contact &amp; requests</Link>
+            <Link to="/standards/">Standards</Link>
+            <Link to="/request/">Contact</Link>
             <a
               href="https://jira.oa-scouting.org/servicedesk/customer/portal/37/create/330"
               target="_blank"
               rel="noreferrer"
-              style={{ fontWeight: 'bold', color: 'var(--red)' }}
+              style={{ fontWeight: 'bold', color: 'var(--red)', marginTop: '4px' }}
             >
-              Submit a request ↗
+              Submit Request ↗
             </a>
           </nav>
         </details>
