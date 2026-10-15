@@ -14,7 +14,7 @@ export function Header() {
         <Link className="brand" to="/">
           <img
             className="committee-logo"
-            src="/assets/committee-logo.svg"
+            src="/assets/committee-logo.jpg"
             width="56"
             height="56"
             alt="National Communications Committee logo"
