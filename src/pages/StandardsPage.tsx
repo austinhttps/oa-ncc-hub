@@ -56,12 +56,18 @@ export function StandardsPage() {
             </div>
           </div>
           <a
-            className="text-link"
-            href="https://docs.google.com/document/d/1ebaeam4kIGUM3cwebZi5piVwNhASfh1VYlPLlay-b5M/edit?tab=t.pbal1rkma1ll"
-            target="_blank"
-            rel="noreferrer"
+            className="pdf-download-link"
+            href="/documents/national-communications-committee-ai-policy.pdf"
+            download="national-communications-committee-ai-policy.pdf"
+            title="Download National Communications Committee AI Policy (PDF)"
           >
-            Read the full committee AI policy document ↗
+            <span className="pdf-icon-badge" aria-hidden="true">PDF</span>
+            <span>Download full committee AI policy document (PDF)</span>
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
           </a>
         </section>
 

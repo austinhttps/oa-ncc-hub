@@ -401,6 +401,46 @@ p {
   border-color: var(--red);
 }
 
+.pdf-download-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: #ffffff;
+  border: 1px solid var(--line);
+  padding: 8px 14px;
+  border-radius: 5px;
+  margin-top: 18px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.16s ease;
+}
+
+.pdf-download-link:hover {
+  border-color: var(--red);
+  color: var(--red);
+  text-decoration: none;
+  background: #fdf5f6;
+  transform: translateY(-1px);
+  box-shadow: 0 3px 8px rgba(189, 35, 53, 0.12);
+}
+
+.pdf-icon-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 4px;
+  background: #fee2e2;
+  color: var(--red);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  flex-shrink: 0;
+}
+
 .home-balanced .intro .text-link {
   margin-top: 20px;
 }
