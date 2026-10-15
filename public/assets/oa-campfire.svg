@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 400" width="700" height="400">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1724" />
+      <stop offset="50%" stop-color="#182333" />
+      <stop offset="100%" stop-color="#2a1215" />
+    </linearGradient>
+    <radialGradient id="fireGlow" cx="50%" cy="75%" r="45%">
+      <stop offset="0%" stop-color="#f97316" stop-opacity="0.9" />
+      <stop offset="30%" stop-color="#ef4444" stop-opacity="0.6" />
+      <stop offset="70%" stop-color="#b91c1c" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#0e1724" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="700" height="400" fill="url(#bgGrad)"/>
+  <circle cx="350" cy="300" r="220" fill="url(#fireGlow)"/>
+  <!-- Campfire silhouette & logs -->
+  <path d="M300 340 L400 340 L380 325 L320 325 Z" fill="#451a03"/>
+  <path d="M310 330 L390 315 L385 305 L305 320 Z" fill="#78350f"/>
+  <path d="M350 250 Q365 290 350 320 Q335 290 350 250 Z" fill="#fbbf24"/>
+  <path d="M340 270 Q350 295 340 320 Q330 295 340 270 Z" fill="#f97316"/>
+  <path d="M360 275 Q370 298 360 320 Q350 298 360 275 Z" fill="#ef4444"/>
+  <!-- Stars -->
+  <circle cx="120" cy="80" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="240" cy="50" r="2" fill="#fff" opacity="0.9"/>
+  <circle cx="480" cy="70" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="580" cy="110" r="2" fill="#fff" opacity="0.85"/>
+  <circle cx="340" cy="40" r="1" fill="#fff" opacity="0.6"/>
+  <!-- Scouts around campfire silhouette -->
+  <path d="M160 340 Q160 290 180 290 Q200 290 200 340 Z" fill="#080d14"/>
+  <circle cx="180" cy="275" r="14" fill="#080d14"/>
+  <path d="M220 340 Q220 280 245 280 Q270 280 270 340 Z" fill="#080d14"/>
+  <circle cx="245" cy="265" r="14" fill="#080d14"/>
+  <path d="M430 340 Q430 280 455 280 Q480 280 480 340 Z" fill="#080d14"/>
+  <circle cx="455" cy="265" r="14" fill="#080d14"/>
+  <path d="M495 340 Q495 290 515 290 Q535 290 535 340 Z" fill="#080d14"/>
+  <circle cx="515" cy="275" r="14" fill="#080d14"/>
+  <!-- Text Label overlay in bottom right -->
+  <text x="670" y="380" fill="#94a3b8" font-size="12" font-family="sans-serif" text-anchor="end" opacity="0.7">Order of the Arrow Fellowship</text>
+</svg>

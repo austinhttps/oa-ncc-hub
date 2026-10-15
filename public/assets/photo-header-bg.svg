@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="headerDarkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14212d" />
+      <stop offset="60%" stop-color="#1d2f40" />
+      <stop offset="100%" stop-color="#3b1b23" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#headerDarkGrad)"/>
+  <circle cx="950" cy="200" r="180" fill="#bd2335" opacity="0.12"/>
+  <circle cx="1020" cy="240" r="120" fill="#e59b2c" opacity="0.08"/>
+  <!-- Decorative grid lines -->
+  <line x1="800" y1="0" x2="800" y2="400" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="1000" y1="0" x2="1000" y2="400" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+  <line x1="0" y1="200" x2="1200" y2="200" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+</svg>
